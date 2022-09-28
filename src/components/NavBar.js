@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className="border-b-4 border-green-700 text-center fixed top-0 w-full bg-green-600 
+    <div className="border-b-4 border-pink-700 text-center fixed top-0 w-full bg-pink-600 
     font-bold text-lg text-white">
 
         <ul>
-            <li className="inline-block pt-4 pb-4">
+            <li className="inline-block pt-4 pb-4 box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05)">
                 <Link to="/" className='pl-6 pr-8'>
                     Home
                 </Link>
