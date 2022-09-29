@@ -7,18 +7,18 @@ const NavBar = () => {
     font-bold text-lg text-white">
 
         <ul>
-            <li className="inline-block pt-4 pb-4 box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05)">
-                <Link to="/" className='pl-6 pr-8'>
+            <li className="inline-block pt-4 pb-4 ">
+                <Link to="/" className='pl-6 pr-8 border-1 shadow-md hover:bg-red-600 active:bg-blue-400'>
                     Home
                 </Link>
             </li>
-            <li className="inline-block pt-4 pb-4">
-                <Link to="/about" className='pl-6 pr-8'>
+            <li className="inline-block pt-4 pb-4 border-1  ">
+                <Link to="/about" className='pl-6 pr-8 shadow-md hover:bg-red-600 active:bg-blue-400'>
                     About
                 </Link>
             </li>
-            <li className="inline-block pt-4 pb-4">
-                <Link to="/articles-List" className='pl-6 pr-8'>
+            <li className="inline-block pt-4 pb-4 border-1 ">
+                <Link to="/articles-List" className='pl-6 pr-8 shadow-md hover:bg-red-600 active:bg-blue-400'>
                     ArticlesList
                 </Link>
             </li>
